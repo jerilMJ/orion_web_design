@@ -12,8 +12,6 @@ root {
 
 html,
 body {
-  overflow-x: hidden;
-  width: 100vw;
   height: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -103,7 +101,7 @@ footer {
   main > .intro-section,
   main > .about-section,
   footer {
-    width: 100%;
+    width: 100vw;
     padding: 40px 200px;
   }
 
