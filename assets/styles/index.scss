@@ -26,7 +26,6 @@ body {
 }
 
 header {
-  height: 10vh;
   padding: 40px 500px;
   display: flex;
   flex-direction: row;
@@ -80,15 +79,19 @@ footer {
   main > .intro-section,
   main > .about-section,
   footer {
-    padding: 20px 50px;
+    width: 100%;
+    padding: 40px 50px;
   }
 
   header {
+    flex-direction: column;
+
     h1 {
       font-size: 1.5rem;
     }
   }
 
   .title {
+    font-size: 1.2rem;
   }
 }
