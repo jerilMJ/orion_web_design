@@ -74,3 +74,21 @@ footer {
   background-color: #002e5b;
   color: hsla(0, 100%, 100%, 0.87);
 }
+
+@media only screen and (max-width: 600px) {
+  header,
+  main > .intro-section,
+  main > .about-section,
+  footer {
+    padding: 20px 100px;
+  }
+
+  header {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .title {
+  }
+}
