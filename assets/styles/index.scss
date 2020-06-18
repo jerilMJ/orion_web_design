@@ -1,0 +1,76 @@
+root {
+  --primary: #00629b;
+  --text-color: #002e5b;
+  --text-white-0: hsla(0, 100%, 100%, 0.87);
+  --text-white-1: hsla(0, 100%, 100%, 0.6);
+  --text-white-2: hsla(0, 100%, 100%, 0.38);
+  --text-black-0: hsla(0, 0%, 0%, 0.87);
+  --text-black-1: hsla(0, 0%, 0%, 0.6);
+  --text-black-2: hsla(0, 0%, 0%, 0.38);
+  --grey-bg: #ededed;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--text-black-0);
+}
+
+body {
+  background: url(../images/droplet.svg) no-repeat, #ededed;
+  background-position: top 10vh right;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+header {
+  height: 10vh;
+  padding: 40px 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+}
+
+main {
+  .intro-section,
+  .about-section {
+    padding: 80px 500px;
+    background-color: #fff;
+  }
+
+  .img-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+p {
+  color: var(--text-black-0);
+  text-align: justify;
+  line-height: 1.45;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.spacing {
+  height: 20vh;
+}
+
+footer {
+  padding: 80px 500px;
+  background-color: #002e5b;
+  color: hsla(0, 100%, 100%, 0.87);
+}
