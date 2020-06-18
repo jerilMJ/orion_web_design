@@ -109,4 +109,26 @@ footer {
     font-size: 1.2rem;
   }
 }
+
+@media only screen and (max-width: 1500px) {
+  header,
+  main > .intro-section,
+  main > .about-section,
+  footer {
+    width: 100%;
+    padding: 40px 200px;
+  }
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header h1 {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+}
 /*# sourceMappingURL=index.css.map */
